@@ -1,0 +1,64 @@
+*{
+    box-sizing:border-box;
+
+}
+
+form{
+    height:20rem;
+    width:20rem;
+    border:1px solid rgb(95, 92, 92);
+    position:relative;
+    left:40rem;
+    top:18rem;
+    padding:3rem;
+    display:flex;
+    flex-wrap:wrap;
+    border-radius:0.6rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfcfc;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+form input{
+    height:2rem;
+    width:15rem;
+    outline:none;
+    border:0.2px solid grey;
+    border-radius:5px;
+}
+
+form input[type="file"]{
+    border:none;
+    background-color: aliceblue;
+}
+
+form textarea{
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical; 
+        outline:none;
+}
+form button{
+    position: relative;
+    top:1rem;
+    left:-4.5rem;
+    background-color: rgb(0, 153, 255);
+    border:none;
+    height:2rem;
+    width:5rem;
+    border-radius:0.2rem;
+    font-weight:bold;
+}
+
+form button:hover{
+    background-color: rgb(0, 132, 255);
+     color:white
+     
+}
+
+
+
